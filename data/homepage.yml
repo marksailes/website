@@ -222,7 +222,7 @@ contact:
     number: "+555 (11) 123 44 55"
   email:
     title: "Email"
-    email: '<a href="mailto:mail@example.com">mail@example.com</a>'
+    email: '<a href="mailto:mark@sailes.co.uk">mark@sailes.co.uk</a>'
   address:
     title: "Address"
     address: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
