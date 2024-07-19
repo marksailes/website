@@ -1,8 +1,8 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Cool."
-  subtitle: "This is my title"
+  title: "Hello, I’m Mark."
+  subtitle: "Solutions Architect @ AWS"
   description: >
     This is a good place to start with an introduction about yourself. Maybe a mention to the place <a target='_blank' href='https://www.adrianmoreno.info/'>where you work</a>. You can also mention where you live, your background and what's the purpose of the site. <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, and see it live <a target='_blank' href="https://adritian-demo.vercel.app/">as a demo site</a> or <a target='_blank' href="https://www.adrianmoreno.info">a real one</a>.<br>You can find this content to edit in the theme.yaml file.
   image:
@@ -18,34 +18,13 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/adrianmoreno/"
+      URL: "https://www.linkedin.com/in/mark-sailes/"
 
     - icon: "github"
-      URL: "https://github.com/zetxek"
+      URL: "https://github.com/msailes"
 
-    - icon: "twitter"
-      URL: "https://twitter.com/zetxek"
-
-    - icon: "dribbble"
-      URL: "#"
-
-    - icon: "behance"
-      URL: "#"
-
-    - icon: "youtube"
-      URL: "#"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/zetxek/"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com/zetxek/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+    - icon: "github"
+      URL: "https://github.com/marksailes"
 
 # about
 about:
@@ -76,13 +55,9 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Life"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
-
-    - university: "High School of Hard Knocks"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "University of Leeds"
+      year: "2002 - 2006"
+      degree: "Bachelor of Science (BSc), Computing"
 
 # experience
 experience:
@@ -100,17 +75,13 @@ experience:
     URL: "#"
 
   items:
-    - title: "Sr. Title"
-      company: "Serious Business, Inc"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Sr. Specialist Solution Architect, Serverless"
+      company: "Amazon Web Services"
+      duration: "Aug 2018 - Current"
 
-    - title: "Sr. Title"
-      company: "Fancy Company, Inc"
-      duration: "Apr 2010 - Jan 2011"
-
-    - title: "Jr. Title"
-      company: "Company, Inc"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Lead Software Engineer"
+      company: "Sky Betting & Gaming"
+      duration: "Aug 2016 - Aug 2018"
 
 # Client & Work
 client_and_work:
@@ -184,7 +155,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -194,23 +165,9 @@ testimonial:
         x: "images/testimonials/daniel-jordan.jpg"
         _2x: "images/testimonials/daniel-jordan@2x.jpg"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "images/testimonials/jonathan-peters.jpg"
-        _2x: "images/testimonials/jonathan-peters@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "images/testimonials/antonio-willis.jpg"
-        _2x: "images/testimonials/antonio-willis@2x.jpg"
-
 # contact
 contact:
-  enable: true
+  enable: false
   title: "Contact"
   form:
     action: "#"
@@ -232,7 +189,7 @@ contact:
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."

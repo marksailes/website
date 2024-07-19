@@ -75,11 +75,11 @@ theme = "adritian-free-hugo-theme"
       enabled = false
   
   [params.logo]
-    text1 = "Cool"
-    text2 = "Name"
+    text1 = "Mark"
+    text2 = "Sailes"
 
   [params.footer]
-      copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
+      copyright = "© Mark Sailes. Free Hugo theme by Adrián Moreno Peña."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
