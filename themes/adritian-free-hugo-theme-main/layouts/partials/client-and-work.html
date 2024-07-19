@@ -1,0 +1,105 @@
+{{ if .Site.Data.homepage.client_and_work.enable }}
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      {{ .Site.Data.homepage.client_and_work.title }}
+    </h2>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div class="clients">
+          {{ range .Site.Data.homepage.client_and_work.clients }}
+          <div class="clients__item">
+            <a href="https://radity.com">
+              
+              {{ $img := resources.Get .logo.x }}
+              {{ $img2x := resources.Get .logo._2x }}
+              {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+              {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+            
+              <picture class="picture clients">
+                <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+                <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+                <img
+                  class="portfolio-project img-responsive"
+                  src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                  srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                  data-src="{{ $img.RelPermalink }}"
+                  data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                  alt="{{ .alt }}"
+                />
+              </picture>
+
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
+    <div
+      class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}"
+    >
+      {{ if .is_even }}
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .title }}</h3>
+        <p class="lead">
+          {{ .description }}
+        </p>
+        <a href="{{ .button.URL | absURL }}" class="btn btn-primary"
+          >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+
+        {{ $img := resources.Get .image.x }}
+        {{ $img2x := resources.Get .image._2x }}
+        {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+        {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+        <picture class="picture-works even">
+          <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+          <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+          <img
+            class="lozad img-responsive"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            data-src="{{ $img.RelPermalink }}"
+            data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            alt="{{ .title }}"
+          />
+        </picture>
+
+      </div>
+      {{ else }}
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        {{ $img := resources.Get .image.x }}
+        {{ $img2x := resources.Get .image._2x }}
+        {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+        {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+        <picture class="picture-works odd">
+          <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+          <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+          <img
+            class="lozad img-responsive"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            data-src="{{ $img.RelPermalink }}"
+            data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            alt="{{ .title }}"
+          />
+        </picture>
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .title }}</h3>
+        <p class="lead">
+          {{ .description }}
+        </p>
+        <a href="{{ .button.URL | absURL }}" class="btn btn-primary"
+          >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
+        ></a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

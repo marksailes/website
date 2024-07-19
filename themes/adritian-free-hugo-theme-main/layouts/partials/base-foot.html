@@ -1,0 +1,18 @@
+<script>
+  window.addEventListener("load", function() {
+    try{
+      var observer = window.lozad(".lozad", {
+        rootMargin: window.innerHeight / 2 + "px 0px",
+        threshold: 0.01
+      }); // lazy loads elements with default selector as '.lozad'
+      observer.observe();
+    } catch(e) {
+      console.error(e);
+    }
+  });
+</script>
+<script defer src='{{ "js/rad-animations.js" | absURL }}'></script>
+<script defer src='{{ "js/library/smooth-scroll.polyfills.min.js" | absURL }}'></script>
+<script defer src='{{ "js/sticky-header.js" | absURL }}'></script>
+<script defer src='{{ "js/smooth-scroll-init.js" | absURL }}'></script>
+<script defer src='{{ "js/library/bootstrap.min.js" | absURL }}'></script>
