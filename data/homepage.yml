@@ -92,70 +92,59 @@ client_and_work:
   title: "Clients & Works"
   enable: true
 
-  clients:
-    - logo:
-        x: "images/clients/asgardia.png"
-        _2x: "images/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "images/clients/earth-2.png"
-        _2x: "images/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "images/clients/goldline.png"
-        _2x: "images/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "images/clients/kanba.png"
-        _2x: "images/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "images/clients/zoo-tv.png"
-        _2x: "images/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "images/clients/ztos.png"
-        _2x: "images/clients/ztos@2x.png"
-      alt: "Ztos"
+#  clients:
+#    - logo:
+#        x: "images/clients/asgardia.png"
+#        _2x: "images/clients/asgardia@2x.png"
+#      alt: "Asgardia"
+#
+#    - logo:
+#        x: "images/clients/earth-2.png"
+#        _2x: "images/clients/earth-2@2x.png"
+#      alt: "Earth 2.0"
+#
+#    - logo:
+#        x: "images/clients/goldline.png"
+#        _2x: "images/clients/goldline@2x.png"
+#      alt: "Goldline"
+#
+#    - logo:
+#        x: "images/clients/kanba.png"
+#        _2x: "images/clients/kanba@2x.png"
+#      alt: "Kanba"
+#
+#    - logo:
+#        x: "images/clients/zoo-tv.png"
+#        _2x: "images/clients/zoo-tv@2x.png"
+#      alt: "Zoo"
+#
+#    - logo:
+#        x: "images/clients/ztos.png"
+#        _2x: "images/clients/ztos@2x.png"
+#      alt: "Ztos"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Improving Developer Productivity at Disney with Serverless and Open Source"
+      description: "I worked with the Disney Streaming team to showcase their use of AWS Serverless Application Model (SAM) and Micronaut."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "AWS Open Source Blog"
+        URL: "https://aws.amazon.com/blogs/opensource/improving-developer-productivity-at-disney-with-serverless-and-open-source/"
       image:
-        x: "images/works/radity-finance.jpg"
+        x: "images/disney-preview.jpg"
         _2x: "images/works/radity-finance@2x.jpg"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "High Burst CPU Compute for Monte Carlo Simulations on AWS"
+      description: "Playtech needs to simulate of plays of its games to evaluate their accuracy, they use AWS Lambda to do this in minutes."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "AWS HPC Blog"
+        URL: "https://aws.amazon.com/blogs/hpc/high-burst-cpu-compute-for-monte-carlo-simulations-on-aws/"
       image:
-        x: "images/works/swissfintech.jpg"
+        x: "images/playtech-preview.jpg"
         _2x: "images/works/swissfintech@2x.jpg"
       is_even: false
-
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "images/works/robo-advisor.jpg"
-        _2x: "images/works/robo-advisor@2x.jpg"
-      is_even: true
 
 # testimonial
 testimonial:
