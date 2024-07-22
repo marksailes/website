@@ -1,3 +1,7 @@
+head:
+  title: "Mark Sailes - Serverless Specialist SA at AWS"
+  description: "In depth content for those building with Serverless services on AWS"
+
 # showcase
 showcase:
   enable: true
