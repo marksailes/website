@@ -10,8 +10,8 @@ showcase:
   description: >
     I work remotely in Leeds as a Specialist Solutions Architect at Amazon Web Services. I specialise in Serverless services like AWS Lambda, API Gateway, SQS, EventBridge. This puts me in contact with everyone from developers, architects to the CEO / CTO of the company. I love the variety of work and challenges brought to us from our customers.
   image:
-    x: "images/mark-sailes-headshot-cropped.jpg"
-    _2x: "images/showcase/showcase@2x.png"
+    x: "images/mark-sailes-headshot.jpg"
+    _2x: "images/mark-sailes-headshot@2x.jpg"
   imageMobile:
     x: "images/showcase/showcase-mobile.jpg"
 
