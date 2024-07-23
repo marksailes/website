@@ -13,7 +13,7 @@ showcase:
     x: "images/mark-sailes-headshot.jpg"
     _2x: "images/mark-sailes-headshot@2x.jpg"
   imageMobile:
-    x: "images/showcase/showcase-mobile.jpg"
+    x: "images/mark-sailes-headshot.jpg"
 
   button:
     icon: "icon-mail-fill"
@@ -49,7 +49,7 @@ about:
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
+    URL: "https://www.linkedin.com/in/mark-sailes/"
   image:
     x: "images/who-am-i/user-picture.png"
     _2x: "images/who-am-i/user-picture@2x.png"
@@ -72,11 +72,11 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
+    URL: "https://www.linkedin.com/in/mark-sailes/"
+#  button2:
+#    icon: "icon-profile-fill"
+#    btnText: "Download My Resume"
+#    URL: "#"
 
   items:
     - title: "Sr. Specialist Solution Architect, Serverless"
