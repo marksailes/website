@@ -132,7 +132,7 @@ client_and_work:
         URL: "https://aws.amazon.com/blogs/opensource/improving-developer-productivity-at-disney-with-serverless-and-open-source/"
       image:
         x: "images/disney-preview.jpg"
-        _2x: "images/works/radity-finance@2x.jpg"
+        _2x: "images/disney-preview@2x.jpg"
       is_even: true
 
     - title: "High Burst CPU Compute for Monte Carlo Simulations on AWS"
@@ -143,7 +143,7 @@ client_and_work:
         URL: "https://aws.amazon.com/blogs/hpc/high-burst-cpu-compute-for-monte-carlo-simulations-on-aws/"
       image:
         x: "images/playtech-preview.jpg"
-        _2x: "images/works/swissfintech@2x.jpg"
+        _2x: "images/playtech-preview@2x.jpg"
       is_even: false
 
 # testimonial
