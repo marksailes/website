@@ -56,7 +56,7 @@ about:
 
 # education
 education:
-  enable: true
+  enable: false
   title: "Education"
   items:
     - university: "University of Leeds"
@@ -73,10 +73,6 @@ experience:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/mark-sailes/"
-#  button2:
-#    icon: "icon-profile-fill"
-#    btnText: "Download My Resume"
-#    URL: "#"
 
   items:
     - title: "Sr. Specialist Solution Architect, Serverless"
@@ -91,37 +87,6 @@ experience:
 client_and_work:
   title: "Clients & Works"
   enable: true
-
-#  clients:
-#    - logo:
-#        x: "images/clients/asgardia.png"
-#        _2x: "images/clients/asgardia@2x.png"
-#      alt: "Asgardia"
-#
-#    - logo:
-#        x: "images/clients/earth-2.png"
-#        _2x: "images/clients/earth-2@2x.png"
-#      alt: "Earth 2.0"
-#
-#    - logo:
-#        x: "images/clients/goldline.png"
-#        _2x: "images/clients/goldline@2x.png"
-#      alt: "Goldline"
-#
-#    - logo:
-#        x: "images/clients/kanba.png"
-#        _2x: "images/clients/kanba@2x.png"
-#      alt: "Kanba"
-#
-#    - logo:
-#        x: "images/clients/zoo-tv.png"
-#        _2x: "images/clients/zoo-tv@2x.png"
-#      alt: "Zoo"
-#
-#    - logo:
-#        x: "images/clients/ztos.png"
-#        _2x: "images/clients/ztos@2x.png"
-#      alt: "Ztos"
 
   works:
     - title: "Improving Developer Productivity at Disney with Serverless and Open Source"
@@ -141,6 +106,34 @@ client_and_work:
         icon: "icon-arrow-right"
         btnText: "AWS HPC Blog"
         URL: "https://aws.amazon.com/blogs/hpc/high-burst-cpu-compute-for-monte-carlo-simulations-on-aws/"
+      image:
+        x: "images/playtech-preview.jpg"
+        _2x: "images/playtech-preview@2x.jpg"
+      is_even: false
+
+# Videos
+video:
+  title: "Videos"
+  enable: true
+
+  videos:
+    - title: "Refactoring Java applications to serverless"
+      description: "re:Invent talk from 2023"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "YouTube"
+        URL: "https://www.youtube.com/watch?v=cF1chd45Vhw"
+      image:
+        x: "images/disney-preview.jpg"
+        _2x: "images/disney-preview@2x.jpg"
+      is_even: true
+
+    - title: "AWS Lambda SnapStart: Fast cold starts for your Java functions"
+      description: "The first breakout session for Lambda SnapStart in 2022"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "YouTube"
+        URL: "https://www.youtube.com/watch?v=ZbnAithBNYY"
       image:
         x: "images/playtech-preview.jpg"
         _2x: "images/playtech-preview@2x.jpg"
