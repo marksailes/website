@@ -118,25 +118,25 @@ video:
 
   videos:
     - title: "Refactoring Java applications to serverless"
-      description: "re:Invent talk from 2023"
+      description: "In 2023 my re:Invent talk wasn't recorded. Max and I joined Julian on Serverless Office Hours to repeat the content for those who couldn't attend in person."
       button:
         icon: "icon-arrow-right"
         btnText: "YouTube"
         URL: "https://www.youtube.com/watch?v=cF1chd45Vhw"
       image:
-        x: "images/disney-preview.jpg"
-        _2x: "images/disney-preview@2x.jpg"
+        x: "images/serverless-office-hours.png"
+        _2x: "images/serverless-office-hours.png"
       is_even: true
 
     - title: "AWS Lambda SnapStart: Fast cold starts for your Java functions"
-      description: "The first breakout session for Lambda SnapStart in 2022"
+      description: "The first in depth talk about Lambda SnapStart after the keynote announcement."
       button:
         icon: "icon-arrow-right"
         btnText: "YouTube"
         URL: "https://www.youtube.com/watch?v=ZbnAithBNYY"
       image:
-        x: "images/playtech-preview.jpg"
-        _2x: "images/playtech-preview@2x.jpg"
+        x: "images/svs320-aws-lambda-snapstart.png"
+        _2x: "images/svs320-aws-lambda-snapstart.png"
       is_even: false
 
 # testimonial
