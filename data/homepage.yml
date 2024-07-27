@@ -65,7 +65,7 @@ education:
 
 # experience
 experience:
-  enable: true
+  enable: false
   title: "Experience"
   description: >
     Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives.
