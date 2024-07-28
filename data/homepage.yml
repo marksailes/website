@@ -36,15 +36,13 @@ about:
   title: "Who am I?"
   content: >
     <p class="lead">
-      Here you can add some information about you. A small excerpt that describes 
-      your experience, for example.   
-      </p>
-      <p class="lead">
-      You explain something about your academic/study background, as well as your
-      preferred areas of work. Think of this area as context-setting for the experience
-      that you will describe below. Why did you change jobs? What drove you to take a 
-      new gig? Even if you are not looking for a job, it's a good way to hint about
-      what kind of projects you are interested in.
+      After many years writing code and building products, I came across a challenge that took me in a totally new direction. I was tasked with making an important business system resilient to data centre failure. Having watched other teams try and fail to achieve this well, I got the chance to try using AWS and Lambda. I immediately saw the benefits to the business, and my team productivity. After leaving the job I knew I want to only work on Serverless projects. I applied for a SA role at AWS, and I was fortunate enough to get it. Since then I've focused more and more on helping others learn what I learnt.
+    </p>
+    <p class="lead">
+      I'm now in the lucky position to work on serverless projects all the time. I'll use this website to showcase work that I've done, and ideas I'm musing on. I find that getting early feedback from on work essential to building the right thing in a timely way.
+    </p>
+    <p class="lead">
+      Are you working on something cool? I do have an idea for me? Let me know!
     </p>
   button:
     icon: "icon-smile-fill"
