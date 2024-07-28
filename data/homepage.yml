@@ -8,7 +8,7 @@ showcase:
   title: "Hello, I’m Mark."
   subtitle: "Solutions Architect @ AWS"
   description: >
-    I work remotely in Leeds as a Specialist Solutions Architect at Amazon Web Services. I specialise in Serverless services like AWS Lambda, API Gateway, SQS, EventBridge. This puts me in contact with everyone from developers, architects to the CEO / CTO of the company. I love the variety of work and challenges brought to us from our customers.
+    If you've come to my website, you're probably interested in either Java or AWS Lambda. More likely still, you're interested in the combination of the two. That has been my area of focus for the last 3 years, working at AWS as a specialist solutions architect. I work with customers, service teams and the open source community to improve the developer experience for Java builders on AWS, especially when using Lambda.
   image:
     x: "images/mark-sailes-headshot.jpg"
     _2x: "images/mark-sailes-headshot@2x.jpg"
