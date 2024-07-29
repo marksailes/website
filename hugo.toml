@@ -1,4 +1,4 @@
-baseURL = "https://www.sailes.co.uk"
+baseURL = "https://sailes.co.uk"
 languageCode = "en-us"
 theme = "adritian-free-hugo-theme"
 
@@ -35,10 +35,10 @@ theme = "adritian-free-hugo-theme"
   URL = "#portfolio"
   weight = 3
 
-#  [[menu.header]]
-#  name = "Blog"
-#  URL = "/blog"
-#  weight = 4
+  [[menu.header]]
+  name = "Blog"
+  URL = "/blog"
+  weight = 4
 
   [[menu.header]]
   name = "Video"
@@ -62,6 +62,10 @@ theme = "adritian-free-hugo-theme"
 
 
 [params]
+
+  description = 'In depth Serverless content'
+  images = ['images/default-open-graph.jpg']
+  title = 'Mark Sailes'
 
   sections = ["showcase", "about", "education", "experience", "client-and-work", "video", "testimonial", "contact", "newsletter"]
 
