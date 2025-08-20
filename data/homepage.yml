@@ -1,14 +1,17 @@
 head:
-  title: "Mark Sailes - Serverless Specialist SA at AWS"
+  title: "Mark Sailes - Technologist, YouTuber, and Entrepreneur"
   description: "In depth content for those building with Serverless services on AWS"
 
 # showcase
 showcase:
   enable: true
   title: "Hello, I’m Mark."
-  subtitle: "Solutions Architect @ AWS"
+  subtitle: "Technologist, YouTuber, and Entrepreneur"
   description: >
-    If you've come to my website, you're probably interested in either Java or AWS Lambda. More likely still, you're interested in the combination of the two. That has been my area of focus for the last 3 years, working at AWS as a specialist solutions architect. I work with customers, service teams and the open source community to improve the developer experience for Java builders on AWS, especially when using Lambda.
+    For 6.5 years I worked at AWS with their most successful serverless customers. I helped them develop their teams 
+    and products. Along the way I learnt about how great teams operate and how to build highly successful systems. I also 
+    spent a lot of time building Java communities inside and outside of AWS. I'm proud to say I was recognised as the 
+    global go to person for Java and serverless.
   image:
     x: "images/mark-sailes-headshot.jpg"
     _2x: "images/mark-sailes-headshot@2x.jpg"
@@ -23,9 +26,6 @@ showcase:
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/mark-sailes/"
-
-    - icon: "github"
-      URL: "https://github.com/msailes"
 
     - icon: "github"
       URL: "https://github.com/marksailes"
